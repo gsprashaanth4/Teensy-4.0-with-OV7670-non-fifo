@@ -2,11 +2,10 @@
 
 // Wire Library for SCCB communication
 #include <Wire.h>
-#include <climits>
 
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
 
-// Address of the OV7670 camera module, may change based on manufacturer, try alternate 0x21
+// Address of the OV7670 camera module
 #define OV7670_ADDR 0x42
 
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>//
